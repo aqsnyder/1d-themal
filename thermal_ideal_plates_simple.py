@@ -49,7 +49,6 @@ R_al_pp = L_al_heating / (k_al * A_al)            # Thermal resistance between a
 R_pp_w = L_pp / (k_pp * A_pp)             # Thermal resistance between pp and water
 
 P_input = 8.33  # Heater power in watts (value for individual well)
-cooling = False
 #------------------------------------ ODE Solver -----------------------------------
 cooling = False
 
