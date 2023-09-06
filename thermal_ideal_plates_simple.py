@@ -51,6 +51,8 @@ R_pp_w = L_pp / (k_pp * A_pp)             # Thermal resistance between pp and wa
 P_input = 8.33  # Heater power in watts (value for individual well)
 cooling = False
 #------------------------------------ ODE Solver -----------------------------------
+cooling = False
+
 # Apply ODE
 def thermal_model(t, T):
     T_al, T_pp, T_w = T
